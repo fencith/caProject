@@ -144,7 +144,10 @@ class MarketApp:
         self.ndx_text = ft.Text('—', size=18, weight=ft.FontWeight.BOLD)
         self.gspc_text = ft.Text('—', size=18, weight=ft.FontWeight.BOLD)
         self.usd_text = ft.Text('—', size=18, weight=ft.FontWeight.BOLD)
-        self.plot_image = ft.Image(src='', width=800, height=600)
+        # initial transparent 1x1 PNG as placeholder to satisfy Flet's src requirement
+        # use a valid data URL placeholder so Flet won't reject an empty src
+        placeholder_b64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII='
+        self.plot_image = ft.Image(src=f'data:image/png;base64,{placeholder_b64}', width=800, height=600)
         self.status = ft.Text('初始化...', size=12)
         self._build_ui()
 
@@ -217,7 +220,8 @@ class MarketApp:
                 png = plot_snapshot(ts, ndx_l, gspc_l, buy_l, sell_l)
                 import base64
                 b64 = base64.b64encode(png).decode('ascii')
-                self.plot_image.src_base64 = b64
+                # assign data URL to `src` so Flet can render the image
+                self.plot_image.src = f"data:image/png;base64,{b64}"
                 self.status.value = f"上次更新时间：{t.strftime('%Y-%m-%d %H:%M:%S')}，数据点：{len(ts)}"
                 self.page.update()
             # sleep but allow interval change
