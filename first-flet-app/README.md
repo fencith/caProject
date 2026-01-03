@@ -28,6 +28,18 @@ flet build apk -v
 
 For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://docs.flet.dev/publish/android/).
 
+---
+
+## Market Watch — 实时指数与汇率 / Market Watch — Real-time Indices & FX
+
+简要：基于 Flet 的轻量桌面应用，实时展示纳斯达克100（^NDX）、标普500（^GSPC）与中国银行人民币/美元买入/卖出价，界面显示最新数值与历史曲线。完整说明见 `README_market_watch.md`。
+
+Summary: A lightweight Flet desktop app that fetches and displays Nasdaq-100 (^NDX), S&P 500 (^GSPC) and Bank of China USD/CNY buy & sell rates, showing live values and historical charts. See `README_market_watch.md` for full docs.
+
+---
+
+For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://docs.flet.dev/publish/android/).
+
 ### iOS
 
 ```
