@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定额估算系统 - 演示界面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+        .section h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 5px;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        .btn-success:hover {
+            background: #218838;
+        }
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+        .btn-danger:hover {
+            background: #c82333;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .table th {
+            background: #667eea;
+            color: white;
+        }
+        .table tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        .table tr:hover {
+            background: #e8e8e8;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+        .form-row .form-group {
+            flex: 1;
+        }
+        .item-row {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .item-row .form-group {
+            margin-bottom: 0;
+        }
+        .item-row button {
+            height: 40px;
+        }
+        .totals {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .totals div {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+        .totals .total {
+            font-size: 20px;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .message {
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            display: none;
+        }
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .select-template-section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .template-item {
+            padding: 10px;
+            margin: 5px 0;
+            background: #f8f9fa;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .template-item:hover {
+            background: #e9ecef;
+        }
+        .template-item.selected {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏗️ 定额估算系统 - 演示界面</h1>
+            <p>基于 FastAPI 的定额/造价估算应用 MVP</p>
+        </div>
+
+        <div class="content">
+            <div id="message" class="message"></div>
+
+            <!-- Projects Section -->
+            <div class="section">
+                <h2>📋 项目管理</h2>
+                <div class="form-row">
+                    <button class="btn btn-primary" onclick="loadProjects()">刷新项目列表</button>
+                    <button class="btn btn-success" onclick="showCreateProjectForm()">新建项目</button>
+                </div>
+                <div id="projectsTable"></div>
+            </div>
+
+            <!-- Templates Section -->
+            <div class="section">
+                <h2>📝 定额模板</h2>
+                <div class="form-row">
+                    <button class="btn btn-primary" onclick="loadTemplates()">刷新模板列表</button>
+                    <button class="btn btn-success" onclick="showCreateTemplateForm()">新建模板</button>
+                </div>
+                <div id="templatesTable"></div>
+            </div>
+
+            <!-- Estimation Section -->
+            <div class="section">
+                <h2>💰 创建估算</h2>
+                <div class="select-template-section">
+                    <div class="form-group">
+                        <label>选择项目</label>
+                        <select id="projectSelect">
+                            <option value="">请选择项目</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>选择模板</label>
+                        <select id="templateSelect">
+                            <option value="">请选择模板</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" onclick="loadTemplateItems()">加载模板条目</button>
+                </div>
+
+                <div id="templateItemsSection" style="display:none;">
+                    <h3>📦 模板条目</h3>
+                    <div id="templateItemsList"></div>
+                    
+                    <h3 style="margin-top: 20px;">🔢 输入工程量</h3>
+                    <div id="estimationItemsForm"></div>
+                    
+                    <button class="btn btn-success" onclick="createEstimation()">生成估算</button>
+                </div>
+            </div>
+
+            <!-- Estimation Results Section -->
+            <div class="section">
+                <h2>📊 估算结果</h2>
+                <button class="btn btn-primary" onclick="loadEstimations()">刷新估算列表</button>
+                <div id="estimationsList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+        let currentTemplateItems = [];
+
+        // Utility functions
+        function showMessage(message, type = 'success') {
+            const msgDiv = document.getElementById('message');
+            msgDiv.textContent = message;
+            msgDiv.className = `message ${type}`;
+            msgDiv.style.display = 'block';
+            setTimeout(() => {
+                msgDiv.style.display = 'none';
+            }, 3000);
+        }
+
+        async function apiCall(url, options = {}) {
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                console.error('API call failed:', error);
+                showMessage(`API调用失败: ${error.message}`, 'error');
+                throw error;
+            }
+        }
+
+        // Projects functions
+        async function loadProjects() {
+            try {
+                const projects = await apiCall(`${API_BASE}/projects`);
+                displayProjects(projects);
+                updateProjectSelect(projects);
+            } catch (error) {
+                console.error('Failed to load projects:', error);
+            }
+        }
+
+        function displayProjects(projects) {
+            const container = document.getElementById('projectsTable');
+            if (projects.length === 0) {
+                container.innerHTML = '<p style="color: #666; padding: 10px;">暂无项目</p>';
+                return;
+            }
+            
+            container.innerHTML = `
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>项目ID</th>
+                            <th>项目名称</th>
+                            <th>币种</th>
+                            <th>税率</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${projects.map(p => `
+                            <tr>
+                                <td>${p.id}</td>
+                                <td>${p.name}</td>
+                                <td>${p.currency}</td>
+                                <td>${(p.tax_rate * 100).toFixed(1)}%</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        function updateProjectSelect(projects) {
+            const select = document.getElementById('projectSelect');
+            select.innerHTML = '<option value="">请选择项目</option>' +
+                projects.map(p => `<option value="${p.id}">${p.name} (${p.id})</option>`).join('');
+        }
+
+        function showCreateProjectForm() {
+            const name = prompt('请输入项目名称:');
+            if (!name) return;
+            
+            const currency = prompt('请输入币种 (如 CNY):', 'CNY');
+            const taxRate = parseFloat(prompt('请输入税率 (如 0.13):', '0.13'));
+            
+            if (isNaN(taxRate)) {
+                showMessage('税率必须是数字', 'error');
+                return;
+            }
+            
+            const project = {
+                id: `P-${Date.now()}`,
+                name: name,
+                currency: currency,
+                tax_rate: taxRate
+            };
+            
+            apiCall(`${API_BASE}/projects`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(project)
+            }).then(() => {
+                showMessage('项目创建成功');
+                loadProjects();
+            }).catch(error => {
+                console.error('Failed to create project:', error);
+            });
+        }
+
+        // Templates functions
+        async function loadTemplates() {
+            try {
+                const templates = await apiCall(`${API_BASE}/templates`);
+                displayTemplates(templates);
+                updateTemplateSelect(templates);
+            } catch (error) {
+                console.error('Failed to load templates:', error);
+            }
+        }
+
+        function displayTemplates(templates) {
+            const container = document.getElementById('templatesTable');
+            if (templates.length === 0) {
+                container.innerHTML = '<p style="color: #666; padding: 10px;">暂无模板</p>';
+                return;
+            }
+            
+            container.innerHTML = templates.map(t => `
+                <div style="margin-bottom: 10px; padding: 10px; background: white; border: 1px solid #ddd; border-radius: 5px;">
+                    <strong>${t.name}</strong> (版本: ${t.version}, ID: ${t.id})
+                    <div style="margin-top: 5px; font-size: 14px;">
+                        ${t.sections.map(s => `
+                            <div style="margin-left: 15px;">
+                                <span style="color: #667eea;">${s.name}</span> (${s.items.length} 个条目)
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateTemplateSelect(templates) {
+            const select = document.getElementById('templateSelect');
+            select.innerHTML = '<option value="">请选择模板</option>' +
+                templates.map(t => `<option value="${t.id}">${t.name} (${t.version})</option>`).join('');
+        }
+
+        function showCreateTemplateForm() {
+            const name = prompt('请输入模板名称:');
+            if (!name) return;
+            
+            const version = prompt('请输入模板版本:', '1.0');
+            if (!version) return;
+            
+            // 简化版模板创建，只创建一个示例结构
+            const template = {
+                id: `T-${Date.now()}`,
+                name: name,
+                version: version,
+                sections: [
+                    {
+                        code: 'S1',
+                        name: '示例分组',
+                        items: [
+                            {
+                                code: 'I-001',
+                                name: '示例条目',
+                                unit: '个',
+                                unit_price: 100.0
+                            }
+                        ]
+                    }
+                ]
+            };
+            
+            apiCall(`${API_BASE}/templates`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(template)
+            }).then(() => {
+                showMessage('模板创建成功');
+                loadTemplates();
+            }).catch(error => {
+                console.error('Failed to create template:', error);
+            });
+        }
+
+        // Estimation functions
+        async function loadTemplateItems() {
+            const projectId = document.getElementById('projectSelect').value;
+            const templateId = document.getElementById('templateSelect').value;
+            
+            if (!projectId || !templateId) {
+                showMessage('请先选择项目和模板', 'error');
+                return;
+            }
+            
+            try {
+                const template = await apiCall(`${API_BASE}/templates/${templateId}`);
+                currentTemplateItems = [];
+                template.sections.forEach(section => {
+                    section.items.forEach(item => {
+                        currentTemplateItems.push({
+                            ...item,
+                            section_name: section.name
+                        });
+                    });
+                });
+                
+                displayTemplateItems();
+                createEstimationForm();
+                
+                document.getElementById('templateItemsSection').style.display = 'block';
+                showMessage(`成功加载 ${currentTemplateItems.length} 个模板条目`);
+            } catch (error) {
+                console.error('Failed to load template items:', error);
+            }
+        }
+
+        function displayTemplateItems() {
+            const container = document.getElementById('templateItemsList');
+            container.innerHTML = `
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>编码</th>
+                            <th>名称</th>
+                            <th>分组</th>
+                            <th>单位</th>
+                            <th>单价</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${currentTemplateItems.map(item => `
+                            <tr>
+                                <td>${item.code}</td>
+                                <td>${item.name}</td>
+                                <td>${item.section_name}</td>
+                                <td>${item.unit}</td>
+                                <td>¥${item.unit_price.toFixed(2)}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        function createEstimationForm() {
+            const container = document.getElementById('estimationItemsForm');
+            container.innerHTML = currentTemplateItems.map(item => `
+                <div class="item-row">
+                    <div style="flex: 2; font-weight: bold;">${item.name} (${item.unit})</div>
+                    <div style="flex: 1; color: #666;">¥${item.unit_price.toFixed(2)}/${item.unit}</div>
+                    <div class="form-group" style="flex: 1;">
+                        <input type="number" 
+                               id="qty_${item.code}" 
+                               placeholder="工程量" 
+                               step="0.01" 
+                               min="0"
+                               value="0">
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        async function createEstimation() {
+            const projectId = document.getElementById('projectSelect').value;
+            const templateId = document.getElementById('templateSelect').value;
+            
+            // 收集所有有数量的条目
+            const items = [];
+            currentTemplateItems.forEach(item => {
+                const qtyInput = document.getElementById(`qty_${item.code}`);
+                const quantity = parseFloat(qtyInput.value);
+                if (quantity > 0) {
+                    items.push({
+                        item_code: item.code,
+                        quantity: quantity
+                    });
+                }
+            });
+            
+            if (items.length === 0) {
+                showMessage('请至少输入一个条目的工程量', 'error');
+                return;
+            }
+            
+            const estimationData = {
+                project_id: projectId,
+                template_id: templateId,
+                items: items
+            };
+            
+            try {
+                const estimation = await apiCall(`${API_BASE}/estimates`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(estimationData)
+                });
+                
+                showMessage('估算创建成功！');
+                displayEstimationResult(estimation);
+                loadEstimations();
+            } catch (error) {
+                console.error('Failed to create estimation:', error);
+            }
+        }
+
+        function displayEstimationResult(estimation) {
+            const container = document.getElementById('estimationsList');
+            const resultHtml = `
+                <div style="margin-top: 20px; padding: 20px; background: #e8f5e9; border: 2px solid #28a745; border-radius: 5px;">
+                    <h3 style="color: #28a745; margin-bottom: 15px;">✅ 最新估算结果</h3>
+                    <p><strong>估算ID:</strong> ${estimation.id}</p>
+                    <p><strong>项目:</strong> ${estimation.project_id}</p>
+                    <p><strong>模板:</strong> ${estimation.template_id}</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>编码</th>
+                                <th>名称</th>
+                                <th>单位</th>
+                                <th>数量</th>
+                                <th>单价</th>
+                                <th>金额</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${estimation.lines.map(line => {
+                                const lineTotal = line.quantity * line.unit_price;
+                                return `
+                                    <tr>
+                                        <td>${line.item_code}</td>
+                                        <td>${line.item_name}</td>
+                                        <td>${line.unit}</td>
+                                        <td>${line.quantity}</td>
+                                        <td>¥${line.unit_price.toFixed(2)}</td>
+                                        <td>¥${lineTotal.toFixed(2)}</td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                    <div class="totals">
+                        <div><strong>小计:</strong> ¥${estimation.subtotal.toFixed(2)}</div>
+                        <div><strong>税费:</strong> ¥${estimation.tax.toFixed(2)}</div>
+                        <div class="total"><strong>总计:</strong> ¥${estimation.total.toFixed(2)}</div>
+                    </div>
+                    <button class="btn btn-primary" onclick="exportCSV('${estimation.id}')">导出CSV</button>
+                </div>
+            `;
+            
+            container.innerHTML = resultHtml + container.innerHTML;
+        }
+
+        async function loadEstimations() {
+            try {
+                const estimations = await apiCall(`${API_BASE}/estimates`);
+                displayEstimationsList(estimations);
+            } catch (error) {
+                console.error('Failed to load estimations:', error);
+            }
+        }
+
+        function displayEstimationsList(estimations) {
+            const container = document.getElementById('estimationsList');
+            const listHtml = estimations.length > 0 ? `
+                <div style="margin-top: 15px;">
+                    <h4>历史估算记录</h4>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>估算ID</th>
+                                <th>项目</th>
+                                <th>模板</th>
+                                <th>小计</th>
+                                <th>税费</th>
+                                <th>总计</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${estimations.map(est => `
+                                <tr>
+                                    <td>${est.id}</td>
+                                    <td>${est.project_id}</td>
+                                    <td>${est.template_id}</td>
+                                    <td>¥${est.subtotal.toFixed(2)}</td>
+                                    <td>¥${est.tax.toFixed(2)}</td>
+                                    <td>¥${est.total.toFixed(2)}</td>
+                                    <td>
+                                        <button class="btn btn-primary" onclick="viewEstimation('${est.id}')">查看</button>
+                                        <button class="btn btn-success" onclick="exportCSV('${est.id}')">导出</button>
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            ` : '<p style="color: #666; padding: 10px;">暂无估算记录</p>';
+            
+            container.innerHTML = listHtml + container.innerHTML;
+        }
+
+        async function viewEstimation(estimationId) {
+            try {
+                const estimation = await apiCall(`${API_BASE}/estimates/${estimationId}`);
+                displayEstimationResult(estimation);
+            } catch (error) {
+                console.error('Failed to load estimation:', error);
+            }
+        }
+
+        function exportCSV(estimationId) {
+            window.open(`${API_BASE}/estimates/${estimationId}/export.csv`, '_blank');
+        }
+
+        // Initialize
+        window.onload = function() {
+            loadProjects();
+            loadTemplates();
+        };
+    </script>
+</body>
+</html>

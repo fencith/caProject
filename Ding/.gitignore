@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# PDF、PPT等非代码文件
+*.pdf
+*.pptx
+*.zip
+
+# 数据库
+*.db
+*.sqlite
+
+# 其他不需要上传的目录
+1/
+2/
+3/
+ESP32/
+FUXA/
+Huggingface/
+InsulatorDataSet-master/
+KeepChatGPT-main/
+KuTong VPN/
+Learn/
+LeetCode-Book/
+Other/
+PLCSimpleSiemensHMI/
+PyScada/
+Python-100-Days-master/
+Python-Core-50-Courses-master/
+Scada-LTS/
+SerialAssistant-main/
+SerialAssistant/
+Software/
+Synology-Surveillance-API-Samples/
+Temp/
+Test.py
+Translator-2025.01.02/
+Visio 模板/
+esp-who/
+esp32-cam-micropython-2022-main/
+esp32-cam-micropython-2022/
+esp32-cam/
+esp32-camera-master/
+everyone-can-use-english-master/
+ffmpeg/
+gitmind/
+gps_ntp_timeserver-main/
+hello-algo-main/
+home-assistant-goodwe-inverter/
+json-scada/
+maid/
+micropython-camera-driver/
+mumble-www-master/
+mumble/
+ollama-translator/
+ollama_win/
+one-python-craftsman/
+person/
+py61850-master/
+sermatec-inverter/
+solar-friend/
+three.js-master/
+tts.wav
+详情页/
