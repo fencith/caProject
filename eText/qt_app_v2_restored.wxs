@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="南网102-e文件解析工具 v2.1.2" Language="2052" Version="2.1.2" Manufacturer="国家电投昆明生产运营中心" UpgradeCode="A1B2C3D4-E5F6-7890-ABCD-EF1234567890">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate />
+
+    <Feature Id="ProductFeature" Title="南网102-e文件解析工具" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_InstallDir" />
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="南网102-e文件解析工具">
+          <Directory Id="AppDataFolder" Name="AppData">
+            <Directory Id="AppDataManufacturer" Name="国家电投昆明生产运营中心">
+              <Directory Id="AppDataProduct" Name="南网102-e文件解析工具">
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="南网102-e文件解析工具"/>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="MainExecutable" Guid="A1B2C3D4-E5F6-7890-ABCD-EF1234567891">
+        <File Id="qt_app_v2_restored.exe" Source="dist\qt_app_v2_restored.exe" KeyPath="yes" />
+      </Component>
+
+      <Component Id="LogoFile" Guid="A1B2C3D4-E5F6-7890-ABCD-EF1234567892">
+        <File Id="spic_logo.png" Source="spic_logo.png" />
+      </Component>
+
+      <Component Id="IconFile" Guid="A1B2C3D4-E5F6-7890-ABCD-EF1234567893">
+        <File Id="spic_icon.ico" Source="spic_icon.ico" />
+      </Component>
+
+      <Component Id="ProgramMenuShortcut" Guid="A1B2C3D4-E5F6-7890-ABCD-EF1234567894">
+        <Shortcut Id="StartMenuShortcut"
+                  Name="南网102-e文件解析工具"
+                  Description="国家电投昆明生产运营中心 南网102-e文件解析工具"
+                  Target="[INSTALLFOLDER]qt_app_v2_restored.exe"
+                  WorkingDirectory="INSTALLFOLDER" />
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\SPIC\EFileParser" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+
+      <Component Id="DesktopShortcut" Guid="A1B2C3D4-E5F6-7890-ABCD-EF1234567895">
+        <Shortcut Id="DesktopShortcut"
+                  Name="南网102-e文件解析工具"
+                  Description="国家电投昆明生产运营中心 南网102-e文件解析工具"
+                  Target="[INSTALLFOLDER]qt_app_v2_restored.exe"
+                  WorkingDirectory="INSTALLFOLDER"
+                  Directory="DesktopFolder" />
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\SPIC\EFileParser" Name="desktop_shortcut" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
+<task_progress>
+- [x] Analyze the application structure
+- [x] Check for existing build scripts
+- [x] Create installation package with PyInstaller
+- [x] Include spic_logo.png and spic_icon.ico
+- [ ] Test the installation package
+</task_progress>
+</write_to_file>

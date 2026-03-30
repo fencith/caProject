@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E文件解析报告</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Microsoft YaHei", Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 8px 8px 0 0; }
+        .header h1 { font-size: 28px; margin-bottom: 10px; }
+        .header .meta { font-size: 14px; opacity: 0.9; }
+        .section { margin: 20px; padding: 20px; border: 1px solid #e0e0e0; border-radius: 6px; }
+        .section-title { font-size: 18px; font-weight: bold; color: #333; margin-bottom: 15px; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        .info-table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
+        .info-table th, .info-table td { padding: 10px; text-align: left; border-bottom: 1px solid #e0e0e0; }
+        .info-table th { background: #f8f9fa; font-weight: bold; color: #555; }
+        .data-table { width: 100%; border-collapse: collapse; margin-top: 10px; overflow-x: auto; }
+        .data-table th, .data-table td { padding: 8px; text-align: left; border: 1px solid #ddd; font-size: 12px; }
+        .data-table th { background: #667eea; color: white; white-space: nowrap; }
+        .data-table tr:nth-child(even) { background: #f9f9f9; }
+        .data-table tr:hover { background: #e3f2fd; }
+        .tag { display: inline-block; padding: 4px 8px; background: #e3f2fd; color: #1976d2; border-radius: 4px; font-size: 12px; margin-right: 5px; }
+        .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px; }
+        .summary-card { background: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 4px solid #667eea; }
+        .summary-card .label { font-size: 12px; color: #666; margin-bottom: 5px; }
+        .summary-card .value { font-size: 20px; font-weight: bold; color: #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 E文件解析报告</h1>
+            <div class="meta">
+                <p>文件名: 20260114/SYZXX/FD_GD.GDZJYHHB_SYZXX_20260114_000000.dat</p>
+                <p>解析时间: 2026-01-14 13:46:01</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">📊 文件概览</div>
+            <div class="summary">
+                <div class="summary-card">
+                    <div class="label">数据段数量</div>
+                    <div class="value">12</div>
+                </div>
+                <div class="summary-card">
+                    <div class="label">总数据表数量</div>
+                    <div class="value">12</div>
+                </div>
+                <div class="summary-card">
+                    <div class="label">总数据行数</div>
+                    <div class="value">23</div>
+                </div>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>                <tr>
+                    <td>Version</td>
+                    <td>1.0</td>
+                </tr>                <tr>
+                    <td>Code</td>
+                    <td>UTF-8</td>
+                </tr>                <tr>
+                    <td>Data</td>
+                    <td>1.0</td>
+                </tr>            </table>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 1: ZSYB
+                <span class="tag">ZSYB::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>主升压变低压侧电压Ua</th>                                <th>主升压变低压侧电压Ub</th>                                <th>主升压变低压侧电压Uc</th>                                <th>主升压变低压侧电压Uab</th>                                <th>主升压变低压侧电压Ubc</th>                                <th>主升压变低压侧电压Uca</th>                                <th>主升压变低压侧电流Ia</th>                                <th>主升压变低压侧电流Ib</th>                                <th>主升压变低压侧电流Ic</th>                                <th>主升压变低压侧有功功率</th>                                <th>主升压变低压侧有功功率量测状态</th>                                <th>主升压变低压侧无功功率</th>                                <th>主升压变低压侧无功功率量测状态</th>                                <th>主升压变高压侧电压Ua</th>                                <th>主升压变高压侧电压Ub</th>                                <th>主升压变高压侧电压Uc</th>                                <th>主升压变高压侧电压Uab</th>                                <th>主升压变高压侧电压Ubc</th>                                <th>主升压变高压侧电压Uca</th>                                <th>主升压变高压侧电流Ia</th>                                <th>主升压变高压侧电流Ib</th>                                <th>主升压变高压侧电流Ic</th>                                <th>主升压变高压侧有功功率</th>                                <th>主升压变高压侧有功功率量测状态</th>                                <th>主升压变高压侧无功功率</th>                                <th>主升压变高压侧无功功率量测状态</th>                                <th>主升压变高压侧功率因数</th>                                <th>主升压变主变档位</th>                                <th>主升压变主变档位量测状态</th>                                <th>主升压变高压侧开关远方/就地切换</th>                                <th>主升压变低压侧开关远方/就地切换</th>                                <th>主升压变保护动作总信号</th>                                <th>主升压变××装置故障（异常、闭锁）</th>                                <th>主升压变××保护动作信号</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>22.08</td>                                <td>22.08</td>                                <td>22.10</td>                                <td>38.22</td>                                <td>38.30</td>                                <td>38.28</td>                                <td>29.64</td>                                <td>34.16</td>                                <td>34.16</td>                                <td>-472.40</td>                                <td>0.00</td>                                <td>1159.12</td>                                <td>0.00</td>                                <td>137.92</td>                                <td>137.83</td>                                <td>137.97</td>                                <td>238.64</td>                                <td>238.95</td>                                <td>239.06</td>                                <td>9.15</td>                                <td>8.91</td>                                <td>9.78</td>                                <td>1304.91</td>                                <td>0.00</td>                                <td>-934.56</td>                                <td>0.00</td>                                <td>0.88</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 2: QBB
+                <span class="tag">QBB::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>启备变高压侧有功功率</th>                                <th>启备变高压侧无功功率</th>                                <th>启备变高压侧功率因数</th>                                <th>启备变高压侧A相电流</th>                                <th>启备变高压侧B相电流</th>                                <th>启备变高压侧C相电流</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 3: CYB
+                <span class="tag">CYB::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>厂用变高压侧有功功率</th>                                <th>厂用变高压侧无功功率</th>                                <th>厂用变高压侧功率因数</th>                                <th>厂用变高压侧A相电流</th>                                <th>厂用变高压侧B相电流</th>                                <th>厂用变高压侧C相电流</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.38</td>                                <td>0.32</td>                                <td>0.30</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 4: LLB
+                <span class="tag">LLB::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>联络变高压侧有功功率</th>                                <th>联络变高压侧无功功率</th>                                <th>联络变高压侧功率因数</th>                                <th>联络变高压侧A相电流</th>                                <th>联络变高压侧B相电流</th>                                <th>联络变高压侧C相电流</th>                                <th>联络变低压侧有功功率</th>                                <th>联络变低压侧无功功率</th>                                <th>联络变低压侧功率因数</th>                                <th>联络变低压侧A相电流</th>                                <th>联络变低压侧B相电流</th>                                <th>联络变低压侧C相电流</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 5: BWD
+                <span class="tag">BWD::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>并网点电压Ua</th>                                <th>并网点电压Ub</th>                                <th>并网点电压Uc</th>                                <th>并网点电压Uab</th>                                <th>并网点电压Ubc</th>                                <th>并网点电压Uca</th>                                <th>并网点电流Ia</th>                                <th>并网点电流Ib</th>                                <th>并网点电流Ic</th>                                <th>并网点有功功率</th>                                <th>并网点无功功率</th>                                <th>并网点功率因数</th>                                <th>并网点上网电量</th>                                <th>并网点A相电压闪变</th>                                <th>并网点B相电压闪变</th>                                <th>并网点C相电压闪变</th>                                <th>并网点A相电压偏差</th>                                <th>并网点B相电压偏差</th>                                <th>并网点C相电压偏差</th>                                <th>并网点A相频率偏差</th>                                <th>并网点B相频率偏差</th>                                <th>并网点C相频率偏差</th>                                <th>并网点A相谐波THD</th>                                <th>并网点B相谐波THD</th>                                <th>并网点C相谐波THD</th>                                <th>并网点开关远方/就地切换</th>                                <th>并网点保护动作总信号</th>                                <th>并网点控制回路断线</th>                                <th>并网点重合闸动作</th>                                <th>并网点××装置故障（异常、闭锁）</th>                                <th>并网点开关本体及操作机构故障</th>                                <th>并网点××保护动作信号</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>137.34</td>                                <td>137.29</td>                                <td>137.34</td>                                <td>237.88</td>                                <td>237.87</td>                                <td>237.89</td>                                <td>168.64</td>                                <td>168.53</td>                                <td>169.87</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 6: SYZMX
+                <span class="tag">SYZMX::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>母线名称</th>                                <th>升压站高压母线电压Ua</th>                                <th>升压站高压母线电压Ub</th>                                <th>升压站高压母线电压Uc</th>                                <th>升压站高压母线电压Uab</th>                                <th>升压站高压母线电压Ubc</th>                                <th>升压站高压母线电压Uca</th>                                <th>升压站高压母线频率</th>                                <th>升压站低压母线电压Ua</th>                                <th>升压站低压母线电压Ub</th>                                <th>升压站低压母线电压Uc</th>                                <th>升压站低压母线电压Uab</th>                                <th>升压站低压母线电压Ubc</th>                                <th>升压站低压母线电压Uca</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>1#母线</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>138.04</td>                                <td>137.88</td>                                <td>137.99</td>                                <td>238.79</td>                                <td>239.05</td>                                <td>239.13</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 7: WGBC
+                <span class="tag">WGBC::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>无功补偿设备无功功率</th>                                <th>无功补偿设备A相电流</th>                                <th>无功补偿设备B相电流</th>                                <th>无功补偿设备C相电流</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 8: JDX
+                <span class="tag">JDX::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (12 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>集电线名称</th>                                <th>集电线有功功率</th>                                <th>集电线有功功率量测状态</th>                                <th>集电线无功功率</th>                                <th>集电线无功功率量测状态</th>                                <th>集电线功率因数</th>                                <th>集电线电压Uab</th>                                <th>集电线电压Ubc</th>                                <th>集电线电压Uca</th>                                <th>集电线电流Ia</th>                                <th>集电线电流Ib</th>                                <th>集电线电流Ic</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>集电线13线</td>                                <td>0.42</td>                                <td>0.00</td>                                <td>436.12</td>                                <td>0.00</td>                                <td>0.14</td>                                <td>38.28</td>                                <td>38.36</td>                                <td>38.28</td>                                <td>11.51</td>                                <td>12.29</td>                                <td>11.37</td>                            </tr>                            <tr>                                <td>2</td>                                <td>2#</td>                                <td>集电线14线</td>                                <td>317.81</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.32</td>                                <td>38.14</td>                                <td>38.19</td>                                <td>38.20</td>                                <td>6.59</td>                                <td>7.30</td>                                <td>7.11</td>                            </tr>                            <tr>                                <td>3</td>                                <td>3#</td>                                <td>集电线15线</td>                                <td>-22.80</td>                                <td>0.00</td>                                <td>100.57</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>38.16</td>                                <td>38.15</td>                                <td>38.22</td>                                <td>8.94</td>                                <td>9.65</td>                                <td>8.92</td>                            </tr>                            <tr>                                <td>4</td>                                <td>4#</td>                                <td>集电线16线</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>38.12</td>                                <td>38.16</td>                                <td>38.15</td>                                <td>5.63</td>                                <td>7.08</td>                                <td>6.66</td>                            </tr>                            <tr>                                <td>5</td>                                <td>5#</td>                                <td>集电线17线</td>                                <td>-199.29</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>38.14</td>                                <td>38.18</td>                                <td>38.17</td>                                <td>12.08</td>                                <td>12.75</td>                                <td>12.49</td>                            </tr>                            <tr>                                <td>6</td>                                <td>6#</td>                                <td>集电线18线</td>                                <td>-372.70</td>                                <td>0.00</td>                                <td>236.79</td>                                <td>0.00</td>                                <td>0.81</td>                                <td>38.12</td>                                <td>38.28</td>                                <td>38.25</td>                                <td>11.72</td>                                <td>12.05</td>                                <td>11.59</td>                            </tr>                            <tr>                                <td>7</td>                                <td>7#</td>                                <td>集电线19线</td>                                <td>-128.73</td>                                <td>0.00</td>                                <td>-475.98</td>                                <td>0.00</td>                                <td>0.38</td>                                <td>38.15</td>                                <td>38.19</td>                                <td>38.17</td>                                <td>13.21</td>                                <td>13.88</td>                                <td>13.79</td>                            </tr>                            <tr>                                <td>8</td>                                <td>8#</td>                                <td>集电线20线</td>                                <td>-307.27</td>                                <td>0.00</td>                                <td>-514.85</td>                                <td>0.00</td>                                <td>0.48</td>                                <td>38.22</td>                                <td>38.25</td>                                <td>38.22</td>                                <td>11.39</td>                                <td>12.26</td>                                <td>12.31</td>                            </tr>                            <tr>                                <td>9</td>                                <td>9#</td>                                <td>集电线21线</td>                                <td>8.90</td>                                <td>0.00</td>                                <td>-358.55</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>38.16</td>                                <td>38.15</td>                                <td>38.18</td>                                <td>12.30</td>                                <td>12.96</td>                                <td>13.02</td>                            </tr>                            <tr>                                <td>10</td>                                <td>10#</td>                                <td>集电线22线</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>-205.66</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>38.32</td>                                <td>38.26</td>                                <td>38.33</td>                                <td>7.51</td>                                <td>9.50</td>                                <td>8.57</td>                            </tr>                            <tr>                                <td>11</td>                                <td>11#</td>                                <td>集电线23线</td>                                <td>410.15</td>                                <td>0.00</td>                                <td>-215.45</td>                                <td>0.00</td>                                <td>0.83</td>                                <td>38.17</td>                                <td>38.17</td>                                <td>38.19</td>                                <td>11.63</td>                                <td>13.14</td>                                <td>12.22</td>                            </tr>                            <tr>                                <td>12</td>                                <td>12#</td>                                <td>集电线24线</td>                                <td>-70.33</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>38.13</td>                                <td>38.14</td>                                <td>38.19</td>                                <td>10.69</td>                                <td>11.52</td>                                <td>11.36</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 9: DLQ
+                <span class="tag">DLQ::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>断路器名称</th>                                <th>断路器状态</th>                                <th>断路器量测状态</th>                                <th>断路器有功功率</th>                                <th>断路器有功量测状态</th>                                <th>断路器无功功率</th>                                <th>断路器无功量测状态</th>                                <th>断路器功率因数</th>                                <th>断路器A相电流</th>                                <th>断路器B相电流</th>                                <th>断路器C相电流</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>1#断路器</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 10: DZ
+                <span class="tag">DZ::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>刀闸名称</th>                                <th>刀闸状态</th>                                <th>刀闸量测状态</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>1#刀闸</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 11: JDDZ
+                <span class="tag">JDDZ::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>编号</th>                                <th>接地刀闸名称</th>                                <th>接地刀闸状态</th>                                <th>接地刀闸量测状态</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>1#接地刀闸</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                📁 数据段 12: DXFDJ
+                <span class="tag">DXFDJ::GD.GDZJYHHB</span>
+            </div>
+            <table class="info-table">
+                <tr>
+                    <th>参数</th>
+                    <th>值</th>
+                </tr>
+                <tr>
+                    <td>场站</td>
+                    <td>GD.GDZJYHHB</td>
+                </tr>
+                <tr>
+                    <td>日期</td>
+                    <td>2026-01-14</td>
+                </tr>
+                <tr>
+                    <td>时间</td>
+                    <td>00-00-00</td>
+                </tr>
+                <tr>
+                    <td>数据表数量</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <div style="margin-top: 20px;">
+                <h3 style="margin-bottom: 10px; color: #667eea;">数据表 1 (1 行)</h3>
+                <div style="overflow-x: auto;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>                                <th>序号</th>                                <th>等效发电机编号</th>                                <th>等效发电机有功量测状态</th>                                <th>等效发电机无功功率</th>                                <th>等效发电机无功量测状态</th>                                <th>等效发电机A相相电压</th>                                <th>等效发电机A相电流</th>                                <th>等效发电机组最大可调出力</th>                                <th>等效发电机组最小可调出力</th>                                <th>等效发电机额定容量</th>                            </tr>
+                        </thead>
+                        <tbody>                            <tr>                                <td>1</td>                                <td>1#</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                                <td>0.00</td>                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

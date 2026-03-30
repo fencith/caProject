@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="E文件解析工具 v2.0.0" Language="2052" Version="2.0.0" Manufacturer="国家电投昆明生产运营中心" UpgradeCode="12345678-1234-1234-1234-123456789012">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate />
+
+    <Feature Id="ProductFeature" Title="E文件解析工具" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_InstallDir" />
+
+    <WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="E文件解析工具">
+          <Directory Id="AppDataFolder" Name="AppData">
+            <Directory Id="AppDataManufacturer" Name="国家电投昆明生产运营中心">
+              <Directory Id="AppDataProduct" Name="E文件解析工具">
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="E文件解析工具"/>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="MainExecutable" Guid="12345678-1234-1234-1234-123456789013">
+        <File Id="EFileParser.exe" Source="dist\eFileParser_v2.exe" KeyPath="yes" />
+      </Component>
+
+      <Component Id="LogoFile" Guid="12345678-1234-1234-1234-123456789014">
+        <File Id="spic_logo.png" Source="spic_logo.png" />
+      </Component>
+
+      <Component Id="DatabaseFile" Guid="12345678-1234-1234-1234-123456789015">
+        <File Id="eparser.db" Source="eparser.db" />
+      </Component>
+
+      <Component Id="ReadmeFile" Guid="12345678-1234-1234-1234-123456789016">
+        <File Id="README.md" Source="README.md" />
+      </Component>
+
+      <Component Id="ManualFile" Guid="12345678-1234-1234-1234-123456789017">
+        <File Id="使用说明.md" Source="使用说明.md" />
+      </Component>
+
+      <Component Id="ProgramMenuShortcut" Guid="12345678-1234-1234-1234-123456789018">
+        <Shortcut Id="StartMenuShortcut"
+                  Name="E文件解析工具"
+                  Description="国家电投昆明生产运营中心 E文件解析工具"
+                  Target="[INSTALLFOLDER]eFileParser_v2.exe"
+                  WorkingDirectory="INSTALLFOLDER" />
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\EFileParser" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+
+      <Component Id="DesktopShortcut" Guid="12345678-1234-1234-1234-123456789019">
+        <Shortcut Id="DesktopShortcut"
+                  Name="E文件解析工具"
+                  Description="国家电投昆明生产运营中心 E文件解析工具"
+                  Target="[INSTALLFOLDER]eFileParser_v2.exe"
+                  WorkingDirectory="INSTALLFOLDER"
+                  Directory="DesktopFolder" />
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\EFileParser" Name="desktop_shortcut" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

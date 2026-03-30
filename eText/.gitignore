@@ -1,0 +1,7628 @@
+# 依赖文件
+*.pyc
+__pycache__/
+*.log
+*.db
+*.sqlite3
+*.sqlite
+*.pkl
+*.pickle
+*.json
+*.txt
+*.csv
+*.dat
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj.*
+*.filters
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.tmp
+*.temp
+# IDE文件
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+# 日志文件
+*.log
+logs/
+# 配置信息
+config/
+settings/
+secrets/
+.env
+*.env
+*.key
+*.pem
+*.crt
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+# 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+# 编译文件
+*.so
+*.pyd
+*.pyo
+# 测试文件
+*.test
+*.spec
+# 构建文件
+build/
+dist/
+*.egg-info/
+*.egg
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可执行文件
+*.exe
+*.out
+*.bin
+*.run
+# 安装包
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.dmg
+# 临时目录
+tmp/
+temp/
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+# 配置文件
+*.ini
+*.cfg
+*.conf
+*.config
+# 缓存目录
+.cache/
+.cache/
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.out
+# 文档
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+# 可

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="南网E文件解析工具" Language="2052" Version="2.2.0" Manufacturer="国家电投昆明生产运营中心" UpgradeCode="{AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+
+    <MediaTemplate />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="南网E文件解析工具" />
+      </Directory>
+      <Directory Id="ProgramMenuFolder" Name="ProgramsMenu">
+        <Directory Id="ProgramMenuDir" Name="南网E文件解析工具" />
+      </Directory>
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="MainExecutable" Guid="{11111111-1111-1111-1111-111111111111}">
+        <File Id="EFileParserExe" Source="dist/EFileParser/EFileParser.exe" KeyPath="yes" />
+        <File Id="EmptyDB" Source="resources/eparser_empty.db" />
+        <File Id="LogoPNG" Source="resources/spic_logo.png" />
+        <File Id="LogoSVG" Source="resources/spic-logo.svg" />
+        <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuDir" Name="南网E文件解析工具"
+          Target="[INSTALLFOLDER]EFileParser.exe" Description="南网102-e文件解析工具" WorkingDirectory="INSTALLFOLDER" />
+        <Shortcut Id="DesktopShortcut" Directory="DesktopFolder" Name="南网E文件解析工具"
+          Target="[INSTALLFOLDER]EFileParser.exe" Description="南网102-e文件解析工具" WorkingDirectory="INSTALLFOLDER" />
+        <RemoveFolder Id="RemoveInstallFolder" On="uninstall" />
+        <RegistryValue Root="HKLM" Key="Software\国家电投\南网E文件解析工具" Name="Installed" Type="string" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="ProductFeature" Title="南网E文件解析工具" Level="1">
+      <ComponentRef Id="MainExecutable" />
+    </Feature>
+
+    <UI>
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Microsoft YaHei" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Microsoft YaHei" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Microsoft YaHei" Size="9" Bold="yes" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="InstallDir" />
+    </UI>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <Property Id="ARPPRODUCTICON" Value="EFileParserExe" />
+    <Property Id="ARPHELPLINK" Value="http://www.spic.com.cn" />
+    <Property Id="ARPCONTACT" Value="0871-65666603" />
+  </Product>
+</Wix>
